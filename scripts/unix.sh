@@ -2,7 +2,7 @@ echo "Unix InstaPy Setup"
 echo =============================================================================================
 arch=$(getconf LONG_BIT)
 kernel=$(uname)
-echo "Installing depedencies..."
+echo "Installing dependencies..."
 if [ $kernel == "Darwin" ]; then
   echo "MacOS System detected"
 else
